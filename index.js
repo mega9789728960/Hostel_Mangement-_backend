@@ -18,4 +18,4 @@ app.use(router);
 
 // ⛔️ Remove app.listen()
 // ✅ Instead, export the handler for Vercel
-app.listen(3000);
+export default app;
