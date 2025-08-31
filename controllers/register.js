@@ -1,4 +1,5 @@
-import database from "../database/databaseconntection.js";
+const database = await import('../database/databaseconntection.js').then(mod => mod.default);
+
 import bcrypt from "bcrypt";
 
 async function register(req, res) {
